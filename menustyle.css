@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+
+}
+
+header {
+    background-image: url(header.jpeg);
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+nav {
+    padding: 25px;
+    background-color: rgba(30, 30, 30, 0.5);
+    border-radius: 10px;
+
+}
+
+nav ul {
+    padding: 0;
+    
+}
+
+nav ul li {
+    list-style: none;
+    padding: 10px 0 10px 0;
+    
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    height: 44px;
+    line-height: 44px;
+    
+}
+
+nav li:hover {
+    background-color: rgba(140, 141, 147, 0.5);
+    border-radius: 4px;
+}
+
+.logo {
+    padding-bottom: 50px;
+}
+
+main {
+    margin-left: 300px;
+}
+
+h2 {
+    font-size: 50px;
+    color: gray;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid grey;
+    margin-bottom: 100px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 60px;
+
+}
+
+.photo {
+    padding: 0 25px 0 50px;
+    border-right: 1px dashed grey;
+}
+
+.explanation {
+    padding: 0 50px 0 25px;
+}
