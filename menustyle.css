@@ -3,6 +3,10 @@ body {
 
 }
 
+a {
+    font-family: cursive;
+}
+
 header {
     background-image: url(header.jpeg);
     position: fixed;
@@ -54,6 +58,7 @@ main {
 }
 
 h2 {
+    font-family: cursive;
     font-size: 50px;
     color: gray;
     padding-bottom: 20px;
@@ -66,7 +71,7 @@ h2 {
 
 section {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 600px));
     padding-bottom: 60px;
 
 }
