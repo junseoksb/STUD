@@ -9,6 +9,7 @@ body {
 }
 
 a {
+    font-family: sans-serif;
     text-decoration: none;
     color: white;
     height: 44px;
@@ -16,10 +17,10 @@ a {
     text-align: center;
 }
 
-  .menu {
+.menu {
       margin: 0 auto 0 auto;
       padding: 0;
-      width: 800px;
+      width: 700px;
       display: flex;
       align-items: flex-end;
       list-style: none;
@@ -30,7 +31,47 @@ a {
   }
 
 
+.menu li:hover {
+      background-color: rgba(140, 141, 147, 0.5);
+      border-radius: 4px;
+  }
+
+@media screen and (max-width: 800px) {
+
+.logo {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        text-align: center;
+}
+
+body {
+    background-image: url(mobileBg.JPEG);
+    background-size: 100% auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    height: 44px;
+    line-height: 44px;
+}
+
+  .menu {
+      padding: 0;
+      width: 200px;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      list-style: none;
+      background-color: rgba(48, 48, 48, 0.5);
+      border-radius: 10px;
+
+  }
+
+
   .menu li:hover {
       background-color: rgba(140, 141, 147, 0.5);
       border-radius: 4px;
   }
+}
