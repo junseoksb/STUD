@@ -4,7 +4,7 @@ body {
 }
 
 a {
-    font-family: Source sans pro;
+    font-family: sans-serif;
 }
 
 header {
@@ -58,7 +58,7 @@ main {
 }
 
 h2 {
-    font-family: Source sans pro;
+    font-family: sans-serif;
     font-size: 50px;
     color: gray;
     padding-bottom: 20px;
@@ -85,16 +85,15 @@ section {
     padding: 0 50px 0 25px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
     header {
         background-image: url(mobileHeader.jpg);
+        background-size: 100% 100%;
         position: fixed;
-        width:100%;
-        height:20px;
-        padding: 0 50px 100px 50px;
-        display: grid;
-        grid-template-columns: 150px 480px;
-    
+        width: 100%;
+        height:100px;
+        padding: 0 0 0 0;
+        display: inline-block;
 
     }
 
@@ -104,21 +103,23 @@ section {
     }
     
     a {
-        font-family: Source sans pro;
+        font-family: sans-serif;
     }
     
     nav {
         background-color: rgba(30, 30, 30, 0.5);
         border-radius: 10px;
         padding: 0;
-        width: 500px;
-        margin-left: 20px;
+        margin: 0 20px 0 20px;
+        float: right;
+        margin: 22.64px 10px 22.64px 0;
     
     }
     
     nav ul {
-        margin: 0;
+        margin: 0 0 0 0;
         display: flex;
+        align-items: center;
 
     }
     
@@ -141,19 +142,20 @@ section {
     }
 
     .logo {
-        align-items: flex-start;
         padding: 0;
-        width: 150px;
-        padding: 20px 0 0 0;
+        width: 100px;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
     }
 
     .logo img {
-        padding: 0;
-        width: 150px;
+        padding: 22.64px 0 22.64px 10px;
+        width: 100px;
+        float: left;
     }
 
     h2 {
-        font-family: Source sans pro;
+        font-family: sans-serif;
         font-size: 50px;
         color: gray;
         padding: 170px 0 20px 0;
@@ -164,19 +166,30 @@ section {
     }
     
     .photo {
-        padding: 0 25px 0 50px;
-        border-bottom: 1px dashed grey;
+        padding: 0 0 30px 0;
         border-right: none;
+        display:flex;
+        justify-content: center;
+
     }
     
 
     section {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fit, minmax(500px, 600px));
         padding-bottom: 60px;
     
     }
 
     main {
         margin: 0;
+    }
+
+    .explanation {
+        text-align: center;
+        padding: 0 50px 100px 50px;
+        border-bottom: 1px dashed grey;
     }
 
 }
