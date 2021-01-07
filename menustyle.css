@@ -85,7 +85,7 @@ section {
     padding: 0 50px 0 25px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     header {
         background-image: url(mobileHeader.jpg);
         background-size: 100% 100%;
