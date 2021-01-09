@@ -44,9 +44,6 @@ a {
         text-align: center;
 }
 
-.logo img {
-    width: 300px;
-}
 
 body {
     background-image: url(mobileBg.JPEG);
@@ -63,6 +60,7 @@ a {
 
   .menu {
       padding: 0;
+      width: 200px;
       height: 400px;
       display: flex;
       align-items: center;
@@ -70,7 +68,6 @@ a {
       list-style: none;
       background-color: rgba(48, 48, 48, 0.5);
       border-radius: 10px;
-      margin: 0 auto 50px auto;
 
 
   }
