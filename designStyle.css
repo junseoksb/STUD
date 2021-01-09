@@ -198,7 +198,7 @@ section {
     .explanation {
         text-align: center;
         padding: 0 50px 100px 50px;
-        border-bottom: 1px dashed grey;
+        border-bottom: 3px dashed grey;
         font-size: 30px;
     }
 
