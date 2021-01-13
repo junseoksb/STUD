@@ -135,14 +135,14 @@ section {
 }
 
 .photo img {
-    width: 400px;
+    width: 350px;
 }
 
 .explanation {
     padding: 0 100px 0 25px;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1000px) {
     header {
         background-image: url(mobileHeader.jpg);
         background-size: 100% 100%;
