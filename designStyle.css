@@ -148,7 +148,7 @@ section {
         background-size: 100% 100%;
         position: fixed;
         width: 100%;
-        height: 90px;
+        height: 80px;
         padding: 0 0 0 0;
         display: inline-block;
 
@@ -170,7 +170,7 @@ section {
         display: block;
         position: absolute;
         width: 100%;
-        height: 5px;
+        height: 3px;
         border-radius: 30px;
         background: white;
         transition: all .35s;
@@ -210,7 +210,10 @@ section {
         width: 200px;
         height: 350px;
         position: fixed;
+        margin: 0 auto;
         top: -350px;
+        left: 0;
+        right: 0;
         list-style: none;
         background-color: rgba(48, 48, 48, 0.5);
         border-radius: 10px;
@@ -221,8 +224,9 @@ section {
     }
 
     input[id="menuicon"] + label {
-        display: block;
-        margin: 22.64px 10px 22.64px 0;
+        display: flex;
+        align-items: center;
+        margin: 20px 17px 20px 0;
         width: 40px;
         height: 40px;
         position: fixed;
@@ -232,7 +236,7 @@ section {
     }
 
     input[id="menuicon"]:checked + label + div {
-        top: 0;
+        top: 100px;
     }
 
 
@@ -262,7 +266,7 @@ section {
     a {
         font-family: sans-serif;
     }
-    
+
     nav {
         display: none;
     }
@@ -275,19 +279,20 @@ section {
     }
 
     .logo img {
-        padding: 22.64px 0 22.64px 10px;
-        width: 100px;
+        padding: 15px 0 15px 15px;
+        height: 50px;
         float: left;
     }
 
     h2 {
         font-family: sans-serif;
         color: gray;
-        padding: 170px 0 20px 0;
+        padding: 110px 0 20px 0;
         margin: 0;
         text-align: center;
         border-bottom: 1px solid grey;
         margin-bottom: 100px;
+        font-size: 35px;
     }
 
     h4 {
@@ -304,7 +309,7 @@ section {
     }
 
     .photo img {
-        width: 200px;
+        width: 300px;
     }
     
 
