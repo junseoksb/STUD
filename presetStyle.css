@@ -138,6 +138,17 @@ section {
     padding: 0 100px 0 25px;
 }
 
+button {
+    width: 200px;
+    margin: 10px 0 0 0;
+    padding: 10px 0 10px 0;
+    appearance: none;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
 @media screen and (max-width: 1000px) {
     header {
         background-image: url(mobileHeader.jpg);
@@ -284,10 +295,9 @@ section {
         font-family: sans-serif;
         color: gray;
         padding: 110px 0 20px 0;
-        margin: 0;
+        margin: 0 0 50px 0;
         text-align: center;
         border-bottom: 1px solid grey;
-        margin-bottom: 100px;
         font-size: 35px;
     }
 
@@ -317,7 +327,8 @@ section {
         flex-wrap: wrap;
         justify-content: center;
         grid-template-columns: repeat(auto-fit, minmax(500px, 600px));
-        padding-bottom: 60px;
+        padding: 30px 0 50px 0;
+        border-bottom: 1px dashed grey;
     
     }
 
