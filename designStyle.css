@@ -318,7 +318,7 @@ section {
         flex-wrap: wrap;
         justify-content: center;
         grid-template-columns: repeat(auto-fit, minmax(500px, 600px));
-        padding: 30px 0 50px 0
+        padding: 30px 0 50px 0;
     
     }
 
