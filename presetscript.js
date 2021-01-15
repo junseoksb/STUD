@@ -13,5 +13,3 @@ function toggleimg3() {
 function toggleimg4() {
     document.getElementById("photo4").src = "Preset Lab/after4.JPG";
 }
-
-init();
